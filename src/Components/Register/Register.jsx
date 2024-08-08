@@ -51,7 +51,7 @@ const Register = () => {
     }
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/user/signup",
+        "https://loginappserver.onrender.com/api/user/signup",
         formData
       );
       if (response.status === 200) {
